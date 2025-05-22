@@ -25,11 +25,12 @@
     overflow: hidden;
   }
   
-  .card:hover {
-    transform: translate(-8px, -8px); /* Matches Figma hover effect */
-    box-shadow: 16px 16px 0px #000; /* Increased shadow on hover */
-  }
-  
+.card:hover {
+  transform: translate(-8px, -8px); /* Matches Figma hover effect */
+  box-shadow: 16px 16px 0px #000;   /* Increased shadow on hover */
+  border-color: purple;            /* Add this line to make border purple on hover */
+}
+
   .card-image {
     width: 100%;
     height: auto;
